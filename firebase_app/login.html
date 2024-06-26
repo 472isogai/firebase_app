@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.2/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1 class="heading">ログイン</h1>
+      <div id="message" class="text-red-700 mb-4"></div>
+
+      <div class="form-field">
+        <input
+          type="email"
+          id="login-email"
+          placeholder="Email"
+          class="input w-full input-bordered"
+        />
+      </div>
+      <div class="form-field">
+        <input
+          type="password"
+          id="login-password"
+          placeholder="Password"
+          class="input w-full input-bordered"
+        />
+      </div>
+      <div class="form-field">
+        <input
+          type="pin-code"
+          id="login-pincode"
+          placeholder="Pin-code"
+          class="input w-full input-bordered"
+        />
+      </div>
+      <div class="text-center button-field">
+        <button id="login-button" class="btn btn-primary btn-wide">
+          ログイン
+        </button>
+      </div>
+    </div>
+
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script type="module" src="js/script.js"></script>
+  </body>
+</html>
+
+
+
+
+<!-- Index.html -->
+<!-- <!DOCTYPE html>
+<html lang="en"> -->
+
+<!-- <head>
+    <title>Pin Pad</title>
+    <link rel="stylesheet"
+        href="./style.css"/>
+</head> -->
+
+<body>
+    <h2 class="text-center"></h2>
+    <div class="container">
+        <div class="card">
+            <!-- <div class="card-header">
+                <input type="password"
+                    id="pinpad-input"
+                    readonly />
+            </div> -->
+            <div>
+                <div class="row">
+                    <button type="button" class="pinpad-btn" value="1">
+                    1
+                    </button>
+                    <button type="button" class="pinpad-btn" value="2">
+                    2
+                    </button>
+                    <button type="button" class="pinpad-btn" value="3">
+                    3
+                    </button>
+                </div>
+                <div class="row">
+                    <button type="button" class="pinpad-btn" value="4">
+                    4
+                    </button>
+                    <button type="button" class="pinpad-btn" value="5">
+                    5
+                    </button>
+                    <button type="button" class="pinpad-btn" value="6">
+                    6
+                    </button>
+                </div>
+                <div class="row">
+                    <button type="button" class="pinpad-btn" value="7">
+                    7
+                    </button>
+                    <button type="button" class="pinpad-btn" value="8">
+                    8
+                    </button>
+                    <button type="button" class="pinpad-btn" value="9">
+                    9
+                    </button>
+                </div>
+                <div class="row">
+                    <button type="button" class="pinpad-btn" value="0">
+                    0
+                    </button>
+                    <button type="button" class="pinpad-btn" value="del" id="delete-btn">
+                    DEL
+                    </button>
+                    <button type="button" class="pinpad-btn" value="ok" id="submit-btn">
+                    OK
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- <div id="modal" class="modal">
+            <div class="modal-body">
+                <span id="close">×</span>
+                <p id="result"></p>
+            </div>
+        </div> -->
+    </div>
+</body>
+
+</html>
